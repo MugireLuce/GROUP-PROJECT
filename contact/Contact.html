@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Reach Higher</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header"> 
+        <div class="w3-top">
+            
+            <div class="w3-bar w3-teal w3-card" style="font-family:'Source Serif Pro', serif;font-size: 16px;">
+              <a href="#" class="w3-bar-item w3-button w3-padding-large logo"><b id="one">REACH</b> <b id="two">HIGHER</b></a>
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="../project.html" class="w3-bar-item w3-button w3-padding-large nav_link" style="text-decoration: none;">HOME</a>
+              <a href="../legality/legality.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small nav_link" style="text-decoration: none;">ABOUT US</a>
+              <a href="../opportunities/opportunities.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small nav_link" style="text-decoration: none;">CURRENT OPPORTUINITIES</a>
+              <a href="../contact/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="text-decoration: none;">CONTACT</a>
+              <form id="demo-2">
+                  <input type="search" placeholder="Search">
+              </form>
+            </div>
+          </div>
+          
+          <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+          </div>
+    </header>
+        <section class="contact" style="margin-top: 43px;font-family:'Source Serif Pro', serif;">
+            <div class="container">
+              <div class="well well-sm" style="font-family:'Source Serif Pro', serif;">
+                <h3 style="font-family:'Source Serif Pro', serif;"><strong>Contact Us</strong></h3>
+              </div>
+              
+              <div class="row">
+                <div class="map">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:600px;width:1000px;'><div id='gmap_canvas' style='height:600px;width:1000px;'></div><div><small><a href="embedgooglemaps.com/">https://embedgooglemaps.com/</a></small></div><div><small><a href="http://promocode.com.ph/">promo code ph</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(-2.1267292294560027,29.35572389999993),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-2.1267292294560027,29.35572389999993)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Rwanda, Karongi, Kiziba<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+          
+                <div class="col-md-5" style="font-family:'Source Serif Pro', serif; margin-top: 40px; color: teal;">
+                    <h4 style="font-family:'Source Serif Pro', serif;"><strong>Get in Touch</strong></h4>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="" value="" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-default" type="submit" name="button" style="background-color: teal; color: white;">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="card text-center">
+                <div class="card-body" style="background-color: black">
+                  <div class="footer-text" style="font-family:'Source Serif Pro', serif;">
+                      <h5 class="card-title"><b><i>More About Reach Higher</i></b></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="container">
+                    <div class="wrapper">
+                      <ul>
+                          <li class="facebook"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></li>
+                          <li class="twitter"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></li>
+                          <li class="instagram"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></li>
+                          <li class="google"><i class="fa fa-google fa-1x" aria-hidden="true"></i></li>
+                          <li class="whatsapp"><i class="fa fa-whatsapp fa-1x" aria-hidden="true"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer text-muted">
+                  <b style="font-family:'Source Serif Pro', serif;">© 2018 REACH HIGHER</b>
+                </div>
+            </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,475 @@
+.logo{
+	font-family: inherit;
+	text-decoration: none;
+	margin-right: 150px;
+}
+.header{
+    margin-top: 10px;
+}
+.luce{
+    margin-top: 70px;
+}
+.card-body{
+    background-color: black;
+}
+.footer-text{
+    margin-bottom: 150px;
+	color: white;
+}
+#ul {
+    padding: 0;
+	list-style: none;
+	margin: 30px auto;
+}
+#ul li {
+    display: inline-block;
+	margin: 0 10px 0 0;
+}
+#ul li a {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    line-height:0px;
+}
+#ul li a i {
+    color:black;
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition:  0.5s;
+}
+#ul li a:hover i {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+#one{
+    color: white;
+}
+#two{
+    color: black;
+}
+.bs-calltoaction{
+    position: relative;
+    width:auto;
+    padding: 15px 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+    .bs-calltoaction > .row{
+        display:table;
+        width: calc(100% + 30px);
+    }
+     
+        .bs-calltoaction > .row > [class^="col-"],
+        .bs-calltoaction > .row > [class*=" col-"]{
+            float:none;
+            display:table-cell;
+            vertical-align:middle;
+        }
+
+            .cta-contents{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+                .cta-title{
+                    margin: 0 auto 15px;
+                    padding: 0;
+                    font-family: 'Source Serif Pro', serif;
+                }
+
+                .cta-desc{
+                    padding: 0;
+                    font-family:'Source Serif Pro', serif;
+                }
+
+                .cta-desc p:last-child{
+                    margin-bottom: 0;
+                    font-family:'Source Serif Pro', serif;
+                }
+
+            .cta-button{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:'Source Serif Pro', serif;
+            }
+
+@media (max-width: 991px){
+    .bs-calltoaction > .row{
+        display:block;
+        width: auto;
+    }
+
+        .bs-calltoaction > .row > [class^="col-"],
+        .bs-calltoaction > .row > [class*=" col-"]{
+            float:none;
+            display:block;
+            vertical-align:middle;
+            position: relative;
+        }
+
+        .cta-contents{
+            text-align: center;
+        }
+}
+
+
+
+.bs-calltoaction.bs-calltoaction-default{
+    color: black;
+    background-color: #00bfb6(155, 193, 243);
+    border-color: rgb(132, 211, 241);
+}
+
+.bs-calltoaction.bs-calltoaction-primary{
+    color: black;
+    background-color: #00bfb6;
+    border-color: #2e6da4;
+}
+
+.bs-calltoaction.bs-calltoaction-info{
+    color: rgb(10, 10, 10);
+    background-color: #00bfb6;
+    border-color: #46b8da;
+}
+
+.bs-calltoaction.bs-calltoaction-success{
+    color: black;
+    background-color: #00bfb6;
+    border-color: #2e6da4;ca
+}
+
+.bs-calltoaction.bs-calltoaction-warning{
+    color: black;
+    background-color: #00bfb6;
+    border-color:grey;
+}
+
+.bs-calltoaction.bs-calltoaction-danger{
+    color: black;
+    background-color: #00bfb6;
+    border-color: grey;
+}
+.bs-calltoaction.bs-calltoaction-default .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-primary .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-info .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-success .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-warning .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-danger .cta-button .btn{
+    border-color: grey;
+}
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+  float: right;
+  margin-left: 250px;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color:black;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+    padding-left: 15px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+/* footer icons */
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 550px;
+  }
+  
+  /* Style the Un-order list by setting its list-style to none */
+  .wrapper ul {
+	list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+	and float them to left and set its border and border-radius.
+   */
+  .wrapper ul li {
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	margin: 0 10px;
+	
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 5px solid #D8E2DC;
+	float: left;
+	transition: all 0.5s ease;
+	display: center;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .wrapper ul li .fa {
+	color: #D8E2DC;
+	/* margin-top: 10px; */
+	transition: all 0.5s ease;
+	/* margin-bottom: 10px; */
+  }
+  .wrapper ul li .fa-facebook {
+	margin-top: 10px;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+	to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .wrapper ul li:hover.facebook {
+	border: 5px solid #3b5998;
+	box-shadow: 0 0 15px #3b5998;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-facebook {
+	color: #3b5998;
+	text-shadow: 0 0 15px #3b5998;
+	transition: all 0.5s ease;
+  }
+  
+  /*twitter*/
+  .wrapper ul li:hover.twitter {
+	border: 5px solid #00aced;
+	box-shadow: 0 0 15px #00aced;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-twitter {
+	color: #00aced;
+	text-shadow: 0 0 15px #00aced;
+	transition: all 0.5s ease;
+  }
+  
+  /* instagram */
+  .wrapper ul li:hover.instagram {
+	border: 5px solid #bc2a8d;
+	box-shadow: 0 0 15px #bc2a8d;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-instagram {
+	color: #bc2a8d;
+	text-shadow: 0 0 15px #bc2a8d;
+	transition: all 0.5s ease;
+  }
+  
+  /* google */
+  .wrapper ul li:hover.google {
+	border: 5px solid #dd4b39;
+	box-shadow: 0 0 15px #dd4b39;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-google {
+	color: #dd4b39;
+	text-shadow: 0 0 15px #dd4b39;
+	transition: all 0.5s ease;
+  }
+  
+  /* whatsapp */
+  .wrapper ul li:hover.whatsapp {
+	border: 5px solid #4dc247;
+	box-shadow: 0 0 15px #4dc247;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-whatsapp {
+	color: #4dc247;
+	text-shadow: 0 0 15px #4dc247;
+	transition: all 0.5s ease;
+  }
+  
+  
+  /* media queries */
+  
+  @media screen and (max-width: 640px){
+	.wrapper {
+		width: 350px;
+	}
+	.wrapper ul li{
+		margin-top: 10px;
+	}
+	.wrapper ul li.google{
+		margin-left: 60px;
+	}
+  }
+  
+  
+  @media screen and (max-width: 340px){
+	.wrapper {
+		width: 150px;
+	}
+	.wrapper ul li{
+		margin:15px;
+	}
+	.wrapper ul li.google{
+		margin-left: 15px;
+	}
+  }
+
+
+  /* Let's style the btn in such away that, 
+it should always be at the center of the browser and style the btn */
+.button{
+    float: left;
+    display: center;
+	transform: translate(-50%, -50%);
+    width: 150px;
+    height: 50px;
+    margin-top: 90px;
+  	border: 3px solid #f9c23c;
+  	padding: 10px;
+  	border-radius: 50px;
+  	cursor: pointer;
+    overflow: hidden;
+    background-color: teal
+}
+
+/* Style the p tag */
+.button p{
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+   font-weight: 900;
+   font-size: 15px;
+   margin-left: 30px;
+   transition: all 0.5s ease;
+}
+
+/* Style the first icon with class send */
+.send{
+  position: absolute;
+  top:15px;
+  left: 30px;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+/* Style the second icon with class send2 */
+.send2{
+  position: absolute;
+  top:80px;
+  left: 30px;
+  color: #696666;
+  transition: all 0.5s ease;
+}
+
+
+/* Hover effects */
+.button:hover{
+  background: #f9c23c;
+  transition: all 0.5s ease;
+}
+
+.button:hover p{
+  color: #696666;
+  transition: all 0.5s ease;
+  animation: move 1s linear 1s forwards;
+}
+
+.button:hover .send{
+  top: -50px;
+  transition: all 0.5s ease;
+}
+
+.button:hover .send2{
+  top: 15px;
+  transition: all 0.5s ease;
+  animation: sending 1s linear 1s forwards;
+}
+
+
+/* CSS3 animation keyframes */
+@keyframes sending{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translate(40px, -60px);
+  }
+}
+
+@keyframes move{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-18px);
+  }
+}
+  
+  
+
